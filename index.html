@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THALA FOR A REASON Search Engine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="neon-header">
+        <h1>MSD Search Engine</h1>
+    </header>
+    <main>
+        <section class="upload-section">
+            <h2>Upload Files</h2>
+            <form id="file-upload-form">
+                <input type="file" id="file-input" name="file" accept=".xls,.xlsx,.doc,.docx,.pdf">
+                <button type="submit">Upload File</button>
+            </form>
+        </section>
+        <section class="search-section">
+            <h2>Search</h2>
+            <input type="text" id="search-input" placeholder="Enter search terms...">
+            <button id="search-button">Search</button>
+            <div id="search-results">
+                <!-- Results will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer class="neon-footer">
+        <p>&copy; 2024 MSD Search Engine. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
